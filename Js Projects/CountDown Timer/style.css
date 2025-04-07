@@ -1,0 +1,35 @@
+.Timer{
+    display: flex;
+    gap:10px;
+    text-align: center;
+}
+body{
+    background: radial-gradient(circle, rgba(238,174,205,1) 0%, rgba(148,187,233,1) 100%);
+}
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;;
+}
+#title h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 110px;
+}
+#title h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+.Timer{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+#days{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+#days p, #hours p, #mins p, #secs p {
+    margin: 10px 0;  /* Adjust spacing between the number and the label */
+}

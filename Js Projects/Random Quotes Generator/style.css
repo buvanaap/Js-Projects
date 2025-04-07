@@ -1,0 +1,31 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+   
+}
+.quotes-container{
+    
+    max-width: 500px;
+    border:2px solid black;
+}
+.quotes-container p{
+    margin-left: 290px;
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 15px;
+}
+.quotes-container p{
+    font-size: 17px;
+}
+.quote-btn{
+    padding: 10px;
+    border: none;
+    background-color:bisque;
+    border-radius: 20px;
+}
